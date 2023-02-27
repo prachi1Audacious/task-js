@@ -132,13 +132,4 @@ var text = 'Hello';
  function decorate(t){
     return '##--'+t+'--##';
  }
- console.log(decorate(text));
- console.log(text);
- console.log(decorate('yooo'));
-
- function decorateMore(t)
- {
-    var a = decorate(t);
-    return '((('+t+')))';
- }
- console.log(decorateMore('cources'));
+ console.log(cources)
