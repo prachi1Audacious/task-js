@@ -132,4 +132,4 @@ var text = 'Hello';
  function decorate(t){
     return '##--'+t+'--##';
  }
- console.log(cources)
+ console.log(cources);
