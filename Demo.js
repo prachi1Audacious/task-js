@@ -91,7 +91,7 @@ const str= "Today is the friday";
  console.log(maxChar("Shriram "));
  var newstring = str.replace(maxChar,"3");
  
- console.log(str);*/
+ console.log(str);
 
  //Task 5
 
@@ -122,8 +122,19 @@ function multiply(x, y) {
 }
 
 console.log(add, 2, 3);           // => 5
-console.log(multiply, 2, 3);    // => 6
+console.log(multiply, 2, 3);   */ // => 6
 
 //Task 7
 
 
+function addNum(x,y)
+{
+  //nested function
+  function showMessage(text)
+  {
+  console.log(text);
+  }
+  let sum=x+y;
+  //invoking the nested function
+  showMessage("sum is "+ sum)
+}
