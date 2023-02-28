@@ -127,9 +127,3 @@ console.log(multiply, 2, 3);    // => 6
 //Task 7
 
 
-var text = 'Hello';
-
- function decorate(t){
-    return '##--'+t+'--##';
- }
- console.log(cources);
