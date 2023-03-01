@@ -123,7 +123,7 @@ function displayUserData(){
 console.log("end user");*/
 
 
-const fun = () =>{
+const fun2= () =>{
           setTimeout(()=>{
             console.log("fun 2")
           },2000);
