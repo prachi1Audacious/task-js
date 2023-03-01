@@ -1,4 +1,4 @@
-function addNum(x,y)
+/*unction addNum(x,y)
 {
   //nested function
   function showMessage(text)
@@ -120,24 +120,13 @@ function displayUserData(){
 
     });
 
-console.log("end user");
+console.log("end user");*/
 
 
-const fun2= () =>{
-          setTimeout(()=>{
-            console.log("fun 2")
-          },2000);
-}
- const fun1 = ()=>{
-         console.log("fun 1")
-          fun2();
-            console.log("fun end")
- }
- fun1();  
 
 
  //async await
-const prachi=()=> {
+/*const prachi=()=> {
     console.log("p");
 }  ;
  const getData = async() =>{
@@ -152,6 +141,28 @@ getData();
 setData();
 prachi();
 console.log("1");
-console.log("2");
+console.log("2");*/
 
-//
+//setTimeout
+const fun2= () =>{
+    setTimeout(()=>{
+      console.log("1")
+    },2000);
+}
+const fun1 = ()=>{
+   console.log("fun 2")
+
+    fun2();
+      console.log("fun end")
+}
+const fun3 = () =>{
+console.log("fun 1")
+fun1();
+}
+fun1();
+
+//setIntrval
+function di
+
+
+
