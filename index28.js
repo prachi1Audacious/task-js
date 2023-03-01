@@ -120,7 +120,7 @@ function displayUserData(){
 
     });
 
-console.log("end user");*/
+console.log("end user");
 
 
 const fun2= () =>{
@@ -133,4 +133,23 @@ const fun2= () =>{
           fun2();
             console.log("fun end")
  }
- fun1();     
+ fun1();*/     
+
+
+ //async await
+const prachi=()=> {
+    console.log("p");
+}  ;
+ const getData = async() =>{
+    let a = await "Hello world";
+    console.log(a)
+};
+const setData = async()=>{
+    let b = await "hello India";
+    console.log(b);
+};
+getData();
+setData();
+prachi();
+//console.log("1");
+//console.log("2");
