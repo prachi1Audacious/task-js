@@ -1,4 +1,5 @@
-/*unction addNum(x,y)
+//Nested function
+function addNum(x,y)
 {
   //nested function
   function showMessage(text)
@@ -12,7 +13,7 @@
 
 //callback
 
-function register(callback){
+/*function register(callback){
     setTimeout(() => {
     console.log('register end');
     callback();
@@ -120,13 +121,13 @@ function displayUserData(){
 
     });
 
-console.log("end user");*/
+console.log("end user");
 
 
 
 
  //async await
-/*const prachi=()=> {
+const prachi=()=> {
     console.log("p");
 }  ;
  const getData = async() =>{
@@ -162,7 +163,24 @@ fun1();
 fun1();
 
 //setIntrval
-function di
+let i=0;
+ let star = setInterval(() => {
+
+ 
+    for(i=1;i<=5;i++)
+      clearInterval(star);
+    {
+        {
+            for(let j=1;j<=5;j++)
+        
+        
+        console.log("*") 
+        }
+           
+     console.log("\n");
+    }
+           
+},5000);
 
 
 
