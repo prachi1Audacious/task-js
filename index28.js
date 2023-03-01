@@ -1,4 +1,4 @@
-/*function addNum(x,y)
+function addNum(x,y)
 {
   //nested function
   function showMessage(text)
@@ -133,7 +133,7 @@ const fun2= () =>{
           fun2();
             console.log("fun end")
  }
- fun1();*/     
+ fun1();  
 
 
  //async await
@@ -151,5 +151,7 @@ const setData = async()=>{
 getData();
 setData();
 prachi();
-//console.log("1");
-//console.log("2");
+console.log("1");
+console.log("2");
+
+//
