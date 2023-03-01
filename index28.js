@@ -127,10 +127,10 @@ const fun = () =>{
           setTimeout(()=>{
             console.log("fun 2")
           },2000);
-        }
+}
  const fun1 = ()=>{
          console.log("fun 1")
-         fun2();
-         console.log("fun end")
+          fun2();
+            console.log("fun end")
  }
  fun1();     
