@@ -163,7 +163,7 @@ fun1();
 fun1();
 
 //setIntrval
-let i=0;
+var i=0;
  let star = setInterval(() => {
 
  
@@ -171,7 +171,7 @@ let i=0;
       clearInterval(star);
     {
         {
-            for(let j=1;j<=5;j++)
+            for(var j=1;j<=5;j++)
         
         
         console.log("*") 
