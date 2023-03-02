@@ -1,5 +1,5 @@
 //Nested function
-function addNum(x,y)
+/*function addNum(x,y)
 {
   //nested function
   function showMessage(text)
@@ -13,7 +13,7 @@ function addNum(x,y)
 
 //callback
 
-/*function register(callback){
+function register(callback){
     setTimeout(() => {
     console.log('register end');
     callback();
@@ -142,7 +142,7 @@ getData();
 setData();
 prachi();
 console.log("1");
-console.log("2");*/
+console.log("2");
 
 //setTimeout
 const fun2= () =>{
@@ -150,7 +150,7 @@ const fun2= () =>{
       console.log("1")
     },2000);
 }
-const fun1 = ()=>{
+const fun1 = () =>{
    console.log("fun 2")
 
     fun2();
@@ -160,27 +160,23 @@ const fun3 = () =>{
 console.log("fun 1")
 fun1();
 }
-fun1();
+fun1();*/
 
 //setIntrval
-var i=0;
- let star = setInterval(() => {
+var i = 0;
+let star = setInterval(() => {
 
- 
-    for(i=1;i<=5;i++)
-      clearInterval(star);
-    {
+
+    for (i = 1; i <= 5; i++) {
+
         {
-            for(var j=1;j<=5;j++)
-        
-        
-        console.log("*") 
+            for (var j = 1; j <= 5; j++) {
+                console.log("*")
+            }console.log("\n");
         }
-           
-     console.log("\n");
     }
-           
-},5000);
+},2000);
+
 
 
 
